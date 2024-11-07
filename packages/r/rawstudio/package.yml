@@ -1,8 +1,9 @@
 name       : rawstudio
 version    : 2.0
-release    : 10
+release    : 11
 source     :
-    - git|https://github.com/rawstudio/rawstudio.git : 003dd4f33377dcfd15ae32904a7cbb0e92123607
+    - git|https://github.com/rawstudio/rawstudio.git : c140a5eb64901e07db5190db20f9884e86e5dcae
+homepage   : http://rawstudio.org/
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
 summary    : Rawstudio is an open-source program to read and manipulate RAW images from digital cameras.
