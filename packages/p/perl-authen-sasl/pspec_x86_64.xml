@@ -3,8 +3,8 @@
         <Name>perl-authen-sasl</Name>
         <Homepage>https://metacpan.org/dist/Authen-SASL</Homepage>
         <Packager>
-            <Name>Silke Hofstra</Name>
-            <Email>silke@slxh.eu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>programming.perl</PartOf>
@@ -20,42 +20,42 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/CRAM_MD5.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/EXTERNAL.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/ANONYMOUS.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/CRAM_MD5.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/DIGEST_MD5.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/EXTERNAL.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/GSSAPI.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/LOGIN.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/OAUTHBEARER.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/PLAIN.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Authen/SASL/Perl/XOAUTH2.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Authen/SASL/.packlist</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::ANONYMOUS.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::CRAM_MD5.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::DIGEST_MD5.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::EXTERNAL.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::GSSAPI.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::LOGIN.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::OAUTHBEARER.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::PLAIN.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::XOAUTH2.3</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/CRAM_MD5.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/EXTERNAL.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/ANONYMOUS.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/CRAM_MD5.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/DIGEST_MD5.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/EXTERNAL.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/GSSAPI.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/LOGIN.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/OAUTHBEARER.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/PLAIN.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Authen/SASL/Perl/XOAUTH2.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Authen/SASL/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::ANONYMOUS.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::CRAM_MD5.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::DIGEST_MD5.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::EXTERNAL.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::GSSAPI.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::LOGIN.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::OAUTHBEARER.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::PLAIN.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Authen::SASL::Perl::XOAUTH2.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2025-07-20</Date>
+        <Update release="13">
+            <Date>2026-02-28</Date>
             <Version>2.1800</Version>
             <Comment>Packaging update</Comment>
-            <Name>Silke Hofstra</Name>
-            <Email>silke@slxh.eu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
