@@ -3,8 +3,8 @@
         <Name>perl-class-data-inheritable</Name>
         <Homepage>https://metacpan.org/dist/Class-Data-Inheritable</Homepage>
         <Packager>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -20,18 +20,18 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Class/Data/Inheritable.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Class/Data/Inheritable/.packlist</Path>
-            <Path fileType="man">/usr/share/man/man3/Class::Data::Inheritable.3</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Class/Data/Inheritable.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Class/Data/Inheritable/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man3/Class::Data::Inheritable.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2024-08-02</Date>
+        <Update release="12">
+            <Date>2026-02-28</Date>
             <Version>0.09</Version>
             <Comment>Packaging update</Comment>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-class-data-inheritable
 version    : '0.09'
-release    : 11
+release    : 12
 source     :
     - https://cpan.metacpan.org/modules/by-module/Class/Class-Data-Inheritable-0.09.tar.gz : 44088d6e90712e187b8a5b050ca5b1c70efe2baa32ae123e9bd8f59f29f06e4d
 homepage   : https://metacpan.org/dist/Class-Data-Inheritable
