@@ -3,8 +3,8 @@
         <Name>perl-term-table</Name>
         <Homepage>https://metacpan.org/pod/Term::Table</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -20,14 +20,14 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/Cell.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/CellStack.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/HashBase.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/LineBreak.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/Spacer.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Term/Table/Util.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Term/Table/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/Cell.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/CellStack.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/HashBase.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/LineBreak.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/Spacer.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Term/Table/Util.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Term/Table/.packlist</Path>
         </Files>
     </Package>
     <Package>
@@ -37,24 +37,24 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="7">perl-term-table</Dependency>
+            <Dependency release="8">perl-term-table</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/Term::Table.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Term::Table::Cell.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Term::Table::CellStack.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Term::Table::HashBase.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Term::Table::LineBreak.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Term::Table::Util.3</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table::Cell.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table::CellStack.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table::HashBase.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table::LineBreak.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Term::Table::Util.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2024-01-17</Date>
+        <Update release="8">
+            <Date>2026-03-01</Date>
             <Version>0.018</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
