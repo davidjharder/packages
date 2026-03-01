@@ -3,8 +3,8 @@
         <Name>perl-file-remove</Name>
         <Homepage>https://metacpan.org/pod/File::Remove</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -12,7 +12,7 @@
         <Description xml:lang="en">File::Remove::remove removes files and directories. It acts like /bin/rm, for the most part. Although unlink can be given a list of files, it will not remove directories; this module remedies that. It also accepts wildcards, * and ?, as arguments for filenames.
 File::Remove::trash accepts the same arguments as remove, with the addition of an optional, infrequently used &quot;other platforms&quot; hashref.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://sources.getsol.us/README.Solus</Archive>
     </Source>
     <Package>
         <Name>perl-file-remove</Name>
@@ -22,17 +22,31 @@ File::Remove::trash accepts the same arguments as remove, with the addition of a
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/File/Remove.pm</Path>
-            <Path fileType="man">/usr/share/man/man3/File::Remove.3</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/File/Remove.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/File/Remove/.packlist</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>perl-file-remove-devel</Name>
+        <Summary xml:lang="en">Development files for perl-file-remove</Summary>
+        <Description xml:lang="en">File::Remove::remove removes files and directories. It acts like /bin/rm, for the most part. Although unlink can be given a list of files, it will not remove directories; this module remedies that. It also accepts wildcards, * and ?, as arguments for filenames.
+File::Remove::trash accepts the same arguments as remove, with the addition of an optional, infrequently used &quot;other platforms&quot; hashref.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="9">perl-file-remove</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="man">/usr/share/man/man3/File::Remove.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2023-07-25</Date>
+        <Update release="9">
+            <Date>2026-03-01</Date>
             <Version>1.61</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
