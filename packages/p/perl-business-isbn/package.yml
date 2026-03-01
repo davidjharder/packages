@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-business-isbn
 version    : '3.009'
-release    : 10
+release    : 11
 source     :
     - https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-3.009.tar.gz : d2ec1970454af1b2c099dd34caa7a348ca6fd323bb7ddbfad55389bd7f96789b
 homepage   : https://metacpan.org/pod/Business::ISBN
