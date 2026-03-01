@@ -3,8 +3,8 @@
         <Name>perl-ipc-run3</Name>
         <Homepage>https://metacpan.org/pod/IPC::Run3</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-2.0</License>
         <PartOf>programming.perl</PartOf>
@@ -20,13 +20,13 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3/ProfArrayBuffer.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3/ProfLogReader.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3/ProfLogger.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3/ProfPP.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/IPC/Run3/ProfReporter.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/IPC/Run3/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3/ProfArrayBuffer.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3/ProfLogReader.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3/ProfLogger.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3/ProfPP.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/IPC/Run3/ProfReporter.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/IPC/Run3/.packlist</Path>
         </Files>
     </Package>
     <Package>
@@ -36,24 +36,24 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="10">perl-ipc-run3</Dependency>
+            <Dependency release="11">perl-ipc-run3</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3.3</Path>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfArrayBuffer.3</Path>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfLogReader.3</Path>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfLogger.3</Path>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfPP.3</Path>
-            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfReporter.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfArrayBuffer.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfLogReader.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfLogger.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfPP.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/IPC::Run3::ProfReporter.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2024-01-21</Date>
+        <Update release="11">
+            <Date>2026-03-01</Date>
             <Version>0.049</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
