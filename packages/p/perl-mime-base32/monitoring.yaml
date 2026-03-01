@@ -1,0 +1,6 @@
+releases:
+  id: 6672
+  rss: ~
+ # No known CPE, checked 2026-02-28
+security:
+  cpe: ~
