@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-mozilla-ca
 version    : '20231213'
-release    : 9
+release    : 10
 source     :
     - https://cpan.metacpan.org/authors/id/L/LW/LWP/Mozilla-CA-20231213.tar.gz : 421a12ba7cef443bd368671cee9c9b46a8b55c2ccf7ac76c42f99e23a06115df
 homepage   : https://metacpan.org/pod/Mozilla::CA
