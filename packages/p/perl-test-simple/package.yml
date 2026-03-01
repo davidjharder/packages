@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-test-simple
-version    : '1.302198'
-release    : 14
+version    : '1.302219'
+release    : 15
 source     :
-    - https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302198.tar.gz : 1dc07bcffd23e49983433c948de3e3f377e6e849ad7fe3432c717fa782024faa
+    - https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.302219.tar.gz : 420600911230de768427f6646758d89b6c07977b565e5b40118e5b8440dbb30b
 homepage   : https://metacpan.org/pod/Test::Simple
 license    : Artistic-1.0-Perl
 component  : programming.perl
