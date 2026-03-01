@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-path-tiny
 version    : '0.144'
-release    : 9
+release    : 10
 source     :
     - https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.144.tar.gz : f6ea094ece845c952a02c2789332579354de8d410a707f9b7045bd241206487d
 license    : Apache-2.0
