@@ -3,8 +3,8 @@
         <Name>perl-test-trap</Name>
         <Homepage>https://metacpan.org/pod/Test::Trap</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -20,12 +20,12 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Test/Trap.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Test/Trap/Builder.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Test/Trap/Builder/PerlIO.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Test/Trap/Builder/SystemSafe.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Test/Trap/Builder/TempFile.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Test/Trap/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Test/Trap.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Test/Trap/Builder.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Test/Trap/Builder/PerlIO.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Test/Trap/Builder/SystemSafe.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Test/Trap/Builder/TempFile.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Test/Trap/.packlist</Path>
         </Files>
     </Package>
     <Package>
@@ -35,23 +35,23 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">perl-test-trap</Dependency>
+            <Dependency release="2">perl-test-trap</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/Test::Trap.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::PerlIO.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::SystemSafe.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::TempFile.3</Path>
+            <Path fileType="man">/usr/share/man/man3/Test::Trap.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::PerlIO.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::SystemSafe.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Test::Trap::Builder::TempFile.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2024-06-23</Date>
+        <Update release="2">
+            <Date>2026-03-01</Date>
             <Version>0.3.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
