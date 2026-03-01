@@ -44,7 +44,7 @@ UNKNOWN:Perl_newSVsv_flags
 UNKNOWN:Perl_newSVuv
 UNKNOWN:Perl_newXS_deffile
 UNKNOWN:Perl_newXS_flags
-UNKNOWN:Perl_new_stackinfo
+UNKNOWN:Perl_new_stackinfo_flags
 UNKNOWN:Perl_pad_push
 UNKNOWN:Perl_pop_scope
 UNKNOWN:Perl_push_scope
@@ -88,6 +88,8 @@ UNKNOWN:Perl_warn_nocontext
 UNKNOWN:Perl_was_lvalue_sub
 UNKNOWN:Perl_xs_boot_epilog
 UNKNOWN:Perl_xs_handshake
+UNKNOWN:ceil
+UNKNOWN:floor
 libc.so.6:__stack_chk_fail
 libc.so.6:memcpy
 libc.so.6:modf
