@@ -3,8 +3,8 @@
         <Name>perl-pod-parser</Name>
         <Homepage>https://metacpan.org/pod/Pod::Parser</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -21,14 +21,14 @@
         <PartOf>programming.perl</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/podselect</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/Find.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/InputObjects.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/ParseUtils.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/Parser.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/PlainText.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/Pod/Select.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Pod/Parser/.packlist</Path>
-            <Path fileType="man">/usr/share/man/man1/podselect.1</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/Find.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/InputObjects.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/ParseUtils.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/Parser.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/PlainText.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/Pod/Select.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Pod/Parser/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man1/podselect.1.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -38,24 +38,24 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="5">perl-pod-parser</Dependency>
+            <Dependency release="6">perl-pod-parser</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/Pod::Find.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Pod::InputObjects.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Pod::ParseUtils.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Pod::Parser.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Pod::PlainText.3</Path>
-            <Path fileType="man">/usr/share/man/man3/Pod::Select.3</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::Find.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::InputObjects.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::ParseUtils.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::Parser.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::PlainText.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/Pod::Select.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2024-01-16</Date>
+        <Update release="6">
+            <Date>2026-03-01</Date>
             <Version>1.67</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
