@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-lwp-protocol-https
 version    : '6.11'
-release    : 9
+release    : 10
 source     :
     - https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.11.tar.gz : 0132ddbf03661565ca85050f2a5094fb9263cbbc3ccb1a4d9c41ac9bb083b917
 homepage   : https://metacpan.org/pod/LWP::Protocol::https
