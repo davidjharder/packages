@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-gtk2-notify
 version    : 0.05
-release    : 8
+release    : 9
 source     :
     - https://cpan.metacpan.org/authors/id/F/FL/FLORA/Gtk2-Notify-0.05.tar.gz : 88189ae68dfbd54615ad133df07e2ec8048d06d8b9586add1227d74eb2ebb047
 homepage   : https://metacpan.org/pod/Gtk2::Notify
