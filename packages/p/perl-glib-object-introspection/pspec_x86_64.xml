@@ -21,11 +21,11 @@
         <PartOf>programming.perl</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/perli11ndoc</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/Glib/Object/Introspection.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/Glib/Object/Introspection/Install/Files.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Glib/Object/Introspection/.packlist</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Glib/Object/Introspection/Introspection.so</Path>
-            <Path fileType="man">/usr/share/man/man1/perli11ndoc.1</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/Glib/Object/Introspection.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/Glib/Object/Introspection/Install/Files.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Glib/Object/Introspection/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Glib/Object/Introspection/Introspection.so</Path>
+            <Path fileType="man">/usr/share/man/man1/perli11ndoc.1.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -35,15 +35,15 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="10">perl-glib-object-introspection</Dependency>
+            <Dependency release="11">perl-glib-object-introspection</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/Glib::Object::Introspection.3</Path>
+            <Path fileType="man">/usr/share/man/man3/Glib::Object::Introspection.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2024-12-13</Date>
+        <Update release="11">
+            <Date>2026-03-02</Date>
             <Version>0.051</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
