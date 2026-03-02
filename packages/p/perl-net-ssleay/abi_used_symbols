@@ -1,4 +1,5 @@
 UNKNOWN:PL_current_context
+UNKNOWN:PL_memory_wrap
 UNKNOWN:PerlIO_findFILE
 UNKNOWN:Perl_PerlIO_fileno
 UNKNOWN:Perl_av_fetch
@@ -16,7 +17,6 @@ UNKNOWN:Perl_gv_add_by_type
 UNKNOWN:Perl_hv_common_key_len
 UNKNOWN:Perl_markstack_grow
 UNKNOWN:Perl_mg_get
-UNKNOWN:Perl_mg_set
 UNKNOWN:Perl_more_bodies
 UNKNOWN:Perl_more_sv
 UNKNOWN:Perl_my_cxt_init
@@ -80,6 +80,7 @@ libc.so.6:stderr
 libc.so.6:stdout
 libc.so.6:strchr
 libc.so.6:strcmp
+libc.so.6:strcpy
 libc.so.6:strlen
 libc.so.6:strncpy
 libcrypto.so.3:ASN1_BIT_STRING_free
@@ -601,6 +602,7 @@ libssl.so.3:SSL_client_hello_get0_legacy_version
 libssl.so.3:SSL_client_hello_get0_random
 libssl.so.3:SSL_client_hello_get0_session_id
 libssl.so.3:SSL_client_hello_get1_extensions_present
+libssl.so.3:SSL_client_hello_get_extension_order
 libssl.so.3:SSL_client_hello_isv2
 libssl.so.3:SSL_client_version
 libssl.so.3:SSL_connect
