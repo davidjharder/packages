@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-www-robotrules
 version    : 6.02
-release    : 9
+release    : 10
 source     :
     - https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz : 46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e
 homepage   : https://metacpan.org/pod/WWW::RobotRules
