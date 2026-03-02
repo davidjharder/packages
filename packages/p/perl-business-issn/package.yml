@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-business-issn
 version    : '1.005'
-release    : 9
+release    : 10
 source     :
     - https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISSN-1.005.tar.gz : 3b09b0267f0a6660fb92b6f50c4c7796ef6a263b62ad3bbeaa07189a0c7c39b3
 homepage   : https://metacpan.org/pod/Business::ISSN
