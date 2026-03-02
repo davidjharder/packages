@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : perl-xml-twig
 version    : '3.52'
-release    : 9
+release    : 10
 source     :
     - http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/XML-Twig-3.52.tar.gz : fef75826c24f2b877d0a0d2645212fc4fb9756ed4d2711614ac15c497e8680ad
 homepage   : https://metacpan.org/pod/XML::Twig
