@@ -3,8 +3,8 @@
         <Name>perl-text-csv-xs</Name>
         <Homepage>https://metacpan.org/pod/Text::CSV_XS</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -20,9 +20,9 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/Text/CSV_XS.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Text/CSV_XS/.packlist</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/Text/CSV_XS/CSV_XS.so</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/Text/CSV_XS.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Text/CSV_XS/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/Text/CSV_XS/CSV_XS.so</Path>
         </Files>
     </Package>
     <Package>
@@ -32,19 +32,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="9">perl-text-csv-xs</Dependency>
+            <Dependency release="10">perl-text-csv-xs</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/Text::CSV_XS.3</Path>
+            <Path fileType="man">/usr/share/man/man3/Text::CSV_XS.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2024-01-14</Date>
+        <Update release="10">
+            <Date>2026-03-02</Date>
             <Version>1.53</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
