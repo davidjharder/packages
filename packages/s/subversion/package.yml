@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : subversion
 version    : 1.14.5
-release    : 32
+release    : 33
 source     :
     - https://dlcdn.apache.org/subversion/subversion-1.14.5.tar.bz2 : e78a29e7766b8b7b354497d08f71a55641abc53675ce1875584781aae35644a1
 homepage   : https://subversion.apache.org/
