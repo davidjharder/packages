@@ -3,8 +3,8 @@
         <Name>xmltoman</Name>
         <Homepage>https://github.com/atsb/xmltoman</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>programming.tools</PartOf>
@@ -22,20 +22,20 @@
         <Files>
             <Path fileType="executable">/usr/bin/xmlmantohtml</Path>
             <Path fileType="executable">/usr/bin/xmltoman</Path>
-            <Path fileType="man">/usr/share/man/man1/xmlmantohtml.1</Path>
-            <Path fileType="man">/usr/share/man/man1/xmltoman.1</Path>
+            <Path fileType="man">/usr/share/man/man1/xmlmantohtml.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/xmltoman.1.zst</Path>
             <Path fileType="data">/usr/share/xmltoman/xmltoman.css</Path>
             <Path fileType="data">/usr/share/xmltoman/xmltoman.dtd</Path>
             <Path fileType="data">/usr/share/xmltoman/xmltoman.xsl</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2024-06-30</Date>
+        <Update release="3">
+            <Date>2026-03-04</Date>
             <Version>0.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
