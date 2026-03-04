@@ -3,8 +3,8 @@
         <Name>nginx-unit</Name>
         <Homepage>https://unit.nginx.org/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.tools</PartOf>
@@ -77,12 +77,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2025-09-28</Date>
+        <Update release="25">
+            <Date>2026-03-04</Date>
             <Version>1.26.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
