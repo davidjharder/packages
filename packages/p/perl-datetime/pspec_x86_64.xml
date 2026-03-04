@@ -3,8 +3,8 @@
         <Name>perl-datetime</Name>
         <Homepage>https://metacpan.org/pod/DateTime</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Artistic-2.0</License>
         <PartOf>programming.perl</PartOf>
@@ -20,17 +20,17 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/Conflicts.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/Duration.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/Helpers.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/Infinite.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/LeapSecond.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/PP.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/PPExtra.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/DateTime/Types.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/DateTime/.packlist</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.38/x86_64-linux-thread-multi/auto/DateTime/DateTime.so</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/Conflicts.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/Duration.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/Helpers.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/Infinite.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/LeapSecond.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/PP.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/PPExtra.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/DateTime/Types.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/DateTime/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.42/x86_64-linux-thread-multi/auto/DateTime/DateTime.so</Path>
         </Files>
     </Package>
     <Package>
@@ -40,24 +40,24 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="14">perl-datetime</Dependency>
+            <Dependency release="15">perl-datetime</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="man">/usr/share/man/man3/DateTime.3</Path>
-            <Path fileType="man">/usr/share/man/man3/DateTime::Conflicts.3</Path>
-            <Path fileType="man">/usr/share/man/man3/DateTime::Duration.3</Path>
-            <Path fileType="man">/usr/share/man/man3/DateTime::Infinite.3</Path>
-            <Path fileType="man">/usr/share/man/man3/DateTime::LeapSecond.3</Path>
-            <Path fileType="man">/usr/share/man/man3/DateTime::Types.3</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime::Conflicts.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime::Duration.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime::Infinite.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime::LeapSecond.3.zst</Path>
+            <Path fileType="man">/usr/share/man/man3/DateTime::Types.3.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2024-01-19</Date>
+        <Update release="15">
+            <Date>2026-03-04</Date>
             <Version>1.65</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
