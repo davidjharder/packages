@@ -392,7 +392,6 @@ libperl.so:Perl_hv_common_key_len
 libperl.so:Perl_markstack_grow
 libperl.so:Perl_mg_find
 libperl.so:Perl_mg_get
-libperl.so:Perl_mg_set
 libperl.so:Perl_mg_size
 libperl.so:Perl_more_bodies
 libperl.so:Perl_more_sv

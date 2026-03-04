@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rxvt-unicode
 version    : '9.31'
-release    : 18
+release    : 19
 source     :
     - https://dist.schmorp.de/rxvt-unicode/rxvt-unicode-9.31.tar.bz2 : aaa13fcbc149fe0f3f391f933279580f74a96fd312d6ed06b8ff03c2d46672e8
 homepage   : https://software.schmorp.de/pkg/rxvt-unicode.html
