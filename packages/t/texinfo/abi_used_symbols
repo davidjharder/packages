@@ -30,7 +30,6 @@ UNKNOWN:Perl_hv_iterval
 UNKNOWN:Perl_looks_like_number
 UNKNOWN:Perl_markstack_grow
 UNKNOWN:Perl_mg_get
-UNKNOWN:Perl_mg_set
 UNKNOWN:Perl_mg_size
 UNKNOWN:Perl_more_bodies
 UNKNOWN:Perl_more_sv
