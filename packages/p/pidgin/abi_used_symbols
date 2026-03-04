@@ -89,8 +89,10 @@ libc.so.6:__ctype_toupper_loc
 libc.so.6:__errno_location
 libc.so.6:__fdelt_chk
 libc.so.6:__fprintf_chk
-libc.so.6:__isoc99_fscanf
-libc.so.6:__isoc99_sscanf
+libc.so.6:__isoc23_fscanf
+libc.so.6:__isoc23_sscanf
+libc.so.6:__isoc23_strtol
+libc.so.6:__isoc23_strtoul
 libc.so.6:__libc_start_main
 libc.so.6:__memcpy_chk
 libc.so.6:__printf_chk
@@ -233,8 +235,6 @@ libc.so.6:strpbrk
 libc.so.6:strrchr
 libc.so.6:strstr
 libc.so.6:strtok
-libc.so.6:strtol
-libc.so.6:strtoul
 libc.so.6:symlink
 libc.so.6:system
 libc.so.6:textdomain
@@ -1916,8 +1916,11 @@ libgtk-x11-2.0.so.0:gtk_window_set_urgency_hint
 libgtkspell.so.0:gtkspell_detach
 libgtkspell.so.0:gtkspell_get_from_text_view
 libgtkspell.so.0:gtkspell_new_attach
+libm.so.6:ceil
 libm.so.6:pow
 libm.so.6:sqrt
+libm.so.6:trunc
+libm.so.6:truncf
 libncursesw.so.6:beep
 libncursesw.so.6:cur_term
 libncursesw.so.6:getmaxx
