@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : postgresql
 version    : '18.1'
-release    : 61
+release    : 62
 homepage   : https://www.postgresql.org/
 source     :
     - https://ftp.postgresql.org/pub/source/v18.1/postgresql-18.1.tar.bz2 : ff86675c336c46e98ac991ebb306d1b67621ece1d06787beaade312c2c915d54
